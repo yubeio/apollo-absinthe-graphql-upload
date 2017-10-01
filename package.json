@@ -1,6 +1,6 @@
 {
   "name": "apollo-absinthe-graphql-upload",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A client to be used with Apollo and Absinthe GraphQL for file uploads.",
   "main": "dist/apollo-absinthe-graphql-upload.js",
   "module": "dist/apollo-absinthe-graphql-upload.module.js",
