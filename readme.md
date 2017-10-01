@@ -16,7 +16,7 @@ Setup Apollo Client with this network interface:
 
 ```js
 import ApolloClient from 'apollo-client'
-import { createNetworkInterface } from 'apollo-upload-client'
+import { createNetworkInterface } from 'apollo-absinthe-graphql-upload'
 
 const client = new ApolloClient({
   networkInterface: createNetworkInterface({
