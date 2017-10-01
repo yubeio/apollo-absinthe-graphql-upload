@@ -1,10 +1,14 @@
 {
   "name": "apollo-absinthe-graphql-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A client to be used with Apollo and Absinthe GraphQL for file uploads.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yubeio/apollo-absinthe-graphql-upload.git"
   },
   "keywords": [
     "grapqhl",
@@ -19,13 +23,21 @@
     "absinthe-elixir",
     "absinthe-graphql",
     "phoenix",
-    "upload",
+    "upload"
   ],
   "author": "Giorgio Torres <torres.giorgio@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "apollo-client": "^1.9.3",
+    "babel-runtime": "^6.25.0",
     "lodash": "^4.17.4",
     "recursive-iterator": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1"
   }
 }
